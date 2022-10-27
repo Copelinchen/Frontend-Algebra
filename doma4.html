@@ -202,7 +202,7 @@
       id="myCanvas"
       width="250"
       height="100"
-      style="border: 5px solid #d3d3d3"
+      style="border: 5px solid #000000"
     >
       Your browser does not support the canvas element.
     </canvas>
@@ -211,17 +211,43 @@
       var canvas = document.getElementById("myCanvas");
       var ctx = canvas.getContext("2d");
       ctx.font = "30px Arial";
-      ctx.fillText("DZG  ( 0 - 4 ) MIL", 10, 50);
+      ctx.fillText("DZG ( 0 - 4 ) MIL", 10, 50);
       ctx.font = "20px Arial";
       ctx.fillText("25.19.2022.", 70, 80);
     </script>
-    <br /><br />
+    <br /><br /><br />
     <audio controls>
       <source
-        src="Vježbe_HTML\00-moje\multimedia\Mladen_Grdović_i_Bepo_Matešić_-_Nije_u_šoldima_sve.mp3"
-        type="audio/mpeg"
+        src="./multimedia/Mladen_Grdović_i_Bepo_Matešić_-_Nije_u_šoldima_sve.mp3"
+        type="audio/mp3"
       />
       Your browser does not support the audio element.
     </audio>
+    <br /><br />
+    <video width="700" controls>
+      <source
+        src="./multimedia/2022-10-27 18-57-46 (online-video-cutter.com).mp4"
+        type="video/mp4"
+      />
+      Your browser does not support HTML video.
+    </video>
+    <p>
+      Source:
+      <a
+        href="https://www.youtube.com/watch?v=SGBsGxtmOjE&ab_channel=ArenaSportTV"
+        target="_blank"
+        >UEFA CHAMPIONS LEAGUE: Dinamo Zagreb - Milan 0:4 / 25.10.2022</a
+      >.
+    </p>
+    <p>
+      If the video does not load, click
+      <a href="https://www.youtube.com/watch?v=SGBsGxtmOjE" target="_blank"
+        >here</a
+      >
+    </p>
+    <br />
+    <br />
+    <br />
+    <br />
   </body>
 </html>
