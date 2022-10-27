@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedija (Dinamo style)</title>
+  </head>
+  <body>
+    <a
+      style="
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+      "
+      href="./index.html"
+      ><b>HOME</b></a
+    >
+    <br /><br /><br />
+    <svg height="340" width="400">
+      <rect
+        x="20"
+        y="15"
+        width="50"
+        height="50"
+        style="fill: red; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="70"
+        y="15"
+        width="50"
+        height="50"
+        style="fill: white; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="120"
+        y="15"
+        width="50"
+        height="50"
+        style="fill: red; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="170"
+        y="15"
+        width="50"
+        height="50"
+        style="fill: white; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="220"
+        y="15"
+        width="50"
+        height="50"
+        style="fill: red; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="20"
+        y="65"
+        width="50"
+        height="50"
+        style="fill: white; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="70"
+        y="65"
+        width="50"
+        height="50"
+        style="fill: red; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="120"
+        y="65"
+        width="50"
+        height="50"
+        style="fill: white; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="170"
+        y="65"
+        width="50"
+        height="50"
+        style="fill: red; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="220"
+        y="65"
+        width="50"
+        height="50"
+        style="fill: white; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="20"
+        y="115"
+        width="50"
+        height="50"
+        style="fill: red; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="70"
+        y="115"
+        width="50"
+        height="50"
+        style="fill: white; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="120"
+        y="115"
+        width="50"
+        height="50"
+        style="fill: red; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="170"
+        y="115"
+        width="50"
+        height="50"
+        style="fill: white; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="20"
+        y="165"
+        width="50"
+        height="50"
+        style="fill: white; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="70"
+        y="165"
+        width="50"
+        height="50"
+        style="fill: red; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="120"
+        y="165"
+        width="50"
+        height="50"
+        style="fill: white; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="20"
+        y="215"
+        width="50"
+        height="50"
+        style="fill: red; stroke: gold; stroke-width: 5"
+      />
+      <rect
+        x="70"
+        y="215"
+        width="50"
+        height="50"
+        style="fill: white; stroke: gold; stroke-width: 5"
+      />
+      <polygon
+        points="50,260 260,50, 350,100 300,310 19,310"
+        style="fill: darkblue"
+      />
+      <circle
+        cx="160"
+        cy="160"
+        r="150"
+        stroke="gold"
+        stroke-width="10"
+        fill="none"
+      />
+      <line
+        x1="50"
+        y1="260"
+        x2="260"
+        y2="50"
+        style="stroke: rgb(255, 219, 0); stroke-width: 7"
+      />
+      <polyline
+        points="200,140 230,140 230,250 250,250"
+        style="fill: none; stroke: white; stroke-width: 15"
+      />
+      <circle
+        cx="195"
+        cy="220"
+        r="30"
+        stroke="white"
+        stroke-width="15"
+        fill="none"
+      />
+      <circle
+        cx="160"
+        cy="160"
+        r="180"
+        stroke="white"
+        stroke-width="50"
+        fill="none"
+      />
+      <line
+        x1="50"
+        y1="260"
+        x2="260"
+        y2="50"
+        style="stroke: rgb(255, 219, 0); stroke-width: 7"
+      />
+    </svg>
+    <br />
+    <canvas
+      id="myCanvas"
+      width="250"
+      height="100"
+      style="border: 5px solid #d3d3d3"
+    >
+      Your browser does not support the canvas element.
+    </canvas>
+
+    <script>
+      var canvas = document.getElementById("myCanvas");
+      var ctx = canvas.getContext("2d");
+      ctx.font = "30px Arial";
+      ctx.fillText("DZG  ( 0 - 4 ) MIL", 10, 50);
+      ctx.font = "20px Arial";
+      ctx.fillText("25.19.2022.", 70, 80);
+    </script>
+    <br /><br />
+    <audio controls>
+      <source
+        src="Vježbe_HTML\00-moje\multimedia\Mladen_Grdović_i_Bepo_Matešić_-_Nije_u_šoldima_sve.mp3"
+        type="audio/mpeg"
+      />
+      Your browser does not support the audio element.
+    </audio>
+  </body>
+</html>
